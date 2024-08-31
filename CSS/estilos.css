@@ -1,0 +1,82 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3A4549; 
+    margin: 0;
+    padding: 20px;
+}
+
+.formulario-contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #D0E3CF; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2E3A3E; 
+}
+
+.tab {
+    display: none;
+}
+
+.tablink {
+    background-color: #2E3A3E; 
+    color: #D0E3CF; 
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.tablink.active {
+    background-color: #FF6C5C;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #2E3A3E; 
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #AFAFAF; 
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="button"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF6C5C; 
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="button"]:hover {
+    background-color: #FF8C8C; 
+}
+
+.resultado {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #3A4549; 
+    color: #D0E3CF; 
+    border-radius: 4px;
+}
